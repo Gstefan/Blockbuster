@@ -1,6 +1,6 @@
 
 # Blockbuster:
-Blockbuster is a clustering algorithm that partitions a set of series into groups using the eigenvectors of their sample covariance matrix.
+Blockbuster is a clustering algorithm that partitions a set of time series into groups, such that correlation is higher within groups than between them. The algorithm uses the eigenvectors of the sample covariance matrix of the series to find the groups.
 
 # Instructions:
 1. Run the script blockbuster_visual_example.R for a visual example of what the algorithm does. 
